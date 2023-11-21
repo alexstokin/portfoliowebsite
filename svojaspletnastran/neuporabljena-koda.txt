@@ -1,0 +1,222 @@
+<!-- Projects Section -->
+      <section id="projects">
+        <div class="projects container">
+          <div class="projects-header">
+            <h1 class="section-title">Recent <span>Projects</span></h1>
+          </div>
+          <div class="all-projects">
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Project 1</h1>
+                <h2>Coding is Love</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                  rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                  harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+              </div>
+              <div class="project-img">
+                <img src="./img/img-1.png" alt="img">
+              </div>
+            </div>
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Project 2</h1>
+                <h2>Coding is Love</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                  rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                  harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+              </div>
+              <div class="project-img">
+                <img src="./img/img-1.png" alt="img">
+              </div>
+            </div>
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Project 3</h1>
+                <h2>Coding is Love</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                  rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                  harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+              </div>
+              <div class="project-img">
+                <img src="./img/img-1.png" alt="img">
+              </div>
+            </div>
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Project 4</h1>
+                <h2>Coding is Love</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                  rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                  harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+              </div>
+              <div class="project-img">
+                <img src="./img/img-1.png" alt="img">
+              </div>
+            </div>
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Project 5</h1>
+                <h2>Coding is Love</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+                  rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+                  harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+              </div>
+              <div class="project-img">
+                <img src="./img/img-1.png" alt="img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Projects Section -->
+
+
+
+      /* Projects section */
+#projects .projects {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#projects .projects-header h1 {
+	margin-bottom: 50px;
+}
+#projects .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#projects .project-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+#projects .project-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#projects .project-info p {
+	color: white;
+}
+#projects .project-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.7;
+}
+#projects .project-img img {
+	transition: 0.3s ease transform;
+}
+#projects .project-item:hover .project-img img {
+	transform: scale(1.1);
+}
+/* End Projects section */
+
+
+                <li><a href="#projects" data-after="Projekti">Projekti</a></li>
+
+                /* Projects section */
+#projects .projects {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#projects .projects-header h1 {
+	margin-bottom: 50px;
+}
+#projects .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#projects .project-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+#projects .project-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#projects .project-info p {
+	color: white;
+}
+#projects .project-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.7;
+}
+#projects .project-img img {
+	transition: 0.3s ease transform;
+}
+#projects .project-item:hover .project-img img {
+	transform: scale(1.1);
+}
+/* End Projects section */
